@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d18">
+  <meta name="description" content="Purcheo is a new point-of-sale experience. Coming soon.">
+  <title>Purcheo — Coming Soon</title>
+  <style>
+    :root{color-scheme:dark;--bg:#090d18;--muted:#a6b1c6;--text:#f6f8ff;--accent:#6ce8ce;--accent2:#78a7ff}
+    *{box-sizing:border-box}html{min-height:100%;scroll-behavior:smooth}body{margin:0;min-height:100vh;background:radial-gradient(ellipse 65% 55% at 75% 30%,#172c45 0%,transparent 70%),radial-gradient(ellipse 45% 45% at 12% 85%,#112e30 0%,transparent 75%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;background-image:linear-gradient(#fff1 1px,transparent 1px),linear-gradient(90deg,#fff1 1px,transparent 1px);background-size:64px 64px;mask-image:linear-gradient(to bottom,transparent,#000 40%,transparent)}.wrap{width:min(1180px,calc(100% - 56px));margin:auto}.nav{height:106px;display:flex;align-items:center;justify-content:space-between;position:relative;z-index:2}.brand{display:inline-flex;align-items:center;gap:13px;text-decoration:none;color:#fff;font-size:27px;font-weight:750;letter-spacing:-1.1px}.brand svg{width:40px;height:40px}.nav-note{font-size:12px;text-transform:uppercase;letter-spacing:.18em;color:#8c9bb2}.hero{display:grid;grid-template-columns:1fr 1.06fr;align-items:center;gap:42px;min-height:calc(100vh - 188px);padding:45px 0 95px}.copy{position:relative;z-index:1}.eyebrow{display:inline-flex;align-items:center;gap:10px;border:1px solid #ffffff25;background:#ffffff08;border-radius:100px;padding:10px 15px;color:#d4e0f0;font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:700}.pulse{width:7px;height:7px;background:var(--accent);border-radius:50%;box-shadow:0 0 0 5px #6ce8ce1b,0 0 20px #6ce8ce88;animation:pulse 2.4s infinite}h1{font-size:clamp(65px,8vw,116px);line-height:.98;letter-spacing:-.085em;margin:31px 0 24px;font-weight:800}h1 span{display:block;background:linear-gradient(105deg,var(--accent),#9ac9ff 80%);background-clip:text;-webkit-background-clip:text;color:transparent}.description{max-width:490px;font-size:clamp(17px,1.6vw,20px);line-height:1.7;color:var(--muted);margin:0}.rule{height:1px;max-width:420px;background:linear-gradient(90deg,#7e90aa55,transparent);margin:38px 0 22px}.footnote{font-size:13px;color:#8f9db5;letter-spacing:.02em}.visual{position:relative;filter:drop-shadow(0 38px 75px #0008)}.visual:before{content:"";position:absolute;inset:18% 5%;border-radius:50%;background:#4de0c7;filter:blur(115px);opacity:.13}.visual svg{display:block;width:100%;height:auto;position:relative;animation:float 8s ease-in-out infinite}.footer{min-height:82px;border-top:1px solid #ffffff18;display:flex;align-items:center;justify-content:space-between;gap:18px;font-size:12px;color:#8594aa}.footer a{color:#9cb1ca;text-decoration:none}.footer a:hover{color:var(--accent)}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-13px)}}@keyframes pulse{50%{box-shadow:0 0 0 8px #6ce8ce05,0 0 24px #6ce8ceaa}}@media(max-width:850px){.hero{grid-template-columns:1fr;gap:20px;padding:52px 0 65px;min-height:0}.copy{text-align:center}.eyebrow{margin:auto}.description{margin:auto}.rule{margin:32px auto 20px}.visual{width:min(610px,100%);margin:15px auto 0}.nav{height:88px}}@media(max-width:500px){.wrap{width:min(100% - 36px,1180px)}.nav-note{font-size:10px;letter-spacing:.08em}.brand{font-size:23px}.brand svg{width:34px;height:34px}.hero{padding-top:45px}h1{font-size:clamp(62px,14vw,85px)}.footer{flex-direction:column;justify-content:center;padding:20px 0;text-align:center;gap:7px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="nav">
+      <a class="brand" href="/" aria-label="Purcheo home">
+        <svg viewBox="0 0 48 48" role="img" aria-label="Purcheo logo" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="logo" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#62e8c9"/><stop offset="1" stop-color="#83aaff"/></linearGradient></defs><rect x="2" y="2" width="44" height="44" rx="14" fill="url(#logo)"/><path d="M17 34V14h10.5a8 8 0 0 1 0 16H17" fill="none" stroke="#081624" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="32" cy="33" r="3" fill="#081624"/></svg>
+        purcheo<span style="color:#6ce8ce">.</span>
+      </a>
+      <span class="nav-note">A new way to sell</span>
+    </header>
+    <main class="hero">
+      <section class="copy" aria-labelledby="headline">
+        <div class="eyebrow"><span class="pulse" aria-hidden="true"></span> Something great is taking shape</div>
+        <h1 id="headline">Coming <span>soon.</span></h1>
+        <p class="description">Meet Purcheo. A fresh approach to point of sale, thoughtfully built for the way business moves. We're working behind the scenes to bring it to life.</p>
+        <div class="rule" aria-hidden="true"></div>
+        <p class="footnote">In development. More details on the way.</p>
+      </section>
+      <div class="visual" aria-hidden="true">
+        <svg viewBox="0 0 660 590" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#26354c"/><stop offset="1" stop-color="#111b2b"/></linearGradient>
+            <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#70efcf"/><stop offset="1" stop-color="#7ba8ff"/></linearGradient>
+            <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity=".35"/></filter>
+          </defs>
+          <circle cx="350" cy="288" r="235" fill="none" stroke="#6debd0" stroke-opacity=".11" stroke-width="1" stroke-dasharray="5 10"/>
+          <circle cx="350" cy="288" r="187" fill="none" stroke="#91b9ff" stroke-opacity=".08"/>
+          <g transform="translate(62 77) rotate(-5 260 215)" filter="url(#shadow)">
+            <rect x="25" y="18" width="518" height="420" rx="25" fill="url(#panel)" stroke="#61748d" stroke-opacity=".55"/>
+            <rect x="25" y="18" width="518" height="58" rx="25" fill="#2b3c54"/><path d="M25 56h518v20H25z" fill="#2b3c54"/>
+            <circle cx="56" cy="47" r="5" fill="#6ce8ce"/><circle cx="73" cy="47" r="5" fill="#7e91ad"/><circle cx="90" cy="47" r="5" fill="#7e91ad"/>
+            <rect x="123" y="39" width="126" height="16" rx="8" fill="#a4b4c8" opacity=".22"/>
+            <rect x="51" y="101" width="218" height="24" rx="7" fill="#c5d5e8" opacity=".85"/>
+            <rect x="51" y="138" width="143" height="11" rx="5" fill="#71849c" opacity=".65"/>
+            <rect x="51" y="178" width="140" height="101" rx="13" fill="#30465a" stroke="#577387" stroke-opacity=".6"/>
+            <rect x="207" y="178" width="140" height="101" rx="13" fill="#30465a" stroke="#577387" stroke-opacity=".6"/>
+            <rect x="363" y="178" width="151" height="101" rx="13" fill="#30465a" stroke="#577387" stroke-opacity=".6"/>
+            <rect x="67" y="197" width="36" height="36" rx="10" fill="#6ce8ce" opacity=".19"/><path d="M76 216h18m-9-9v18" stroke="#6ce8ce" stroke-width="3" stroke-linecap="round"/>
+            <rect x="223" y="197" width="36" height="36" rx="10" fill="#83aaff" opacity=".19"/><path d="M233 217l8-8 8 8-8 8z" stroke="#83aaff" stroke-width="2.5" fill="none"/>
+            <rect x="379" y="197" width="36" height="36" rx="10" fill="#6ce8ce" opacity=".19"/><path d="M389 224v-12h5v12m4 0v-19h5v19" stroke="#6ce8ce" stroke-width="2" fill="none"/>
+            <g fill="#9aadc2" opacity=".75"><rect x="67" y="246" width="87" height="9" rx="4"/><rect x="223" y="246" width="87" height="9" rx="4"/><rect x="379" y="246" width="100" height="9" rx="4"/></g>
+            <rect x="51" y="302" width="463" height="109" rx="14" fill="#1a2a3c" stroke="#54677e" stroke-opacity=".45"/>
+            <g fill="#7189a3" opacity=".8"><rect x="69" y="320" width="104" height="9" rx="4"/><rect x="69" y="345" width="210" height="8" rx="4"/><rect x="69" y="369" width="160" height="8" rx="4"/></g>
+            <path d="M326 378l35-25 35 11 34-33 38 15 27-24" stroke="#6ce8ce" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M326 378l35-25 35 11 34-33 38 15 27-24v70H326z" fill="#6ce8ce" opacity=".08"/>
+          </g>
+          <g transform="translate(352 339) rotate(7 120 78)" filter="url(#shadow)">
+            <rect x="0" y="0" width="245" height="159" rx="20" fill="#26394e" stroke="#8296ad" stroke-opacity=".65"/>
+            <rect x="20" y="19" width="205" height="120" rx="12" fill="#122b30" stroke="#5c9f98" stroke-opacity=".45"/>
+            <circle cx="123" cy="65" r="27" fill="url(#mint)"/><path d="M112 65l8 8 16-17" stroke="#102b32" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <rect x="72" y="106" width="103" height="8" rx="4" fill="#a6c6c2" opacity=".65"/>
+          </g>
+          <g transform="translate(58 363) rotate(-9 80 55)" filter="url(#shadow)">
+            <rect width="170" height="116" rx="17" fill="#26384d" stroke="#6e829a" stroke-opacity=".6"/>
+            <rect x="18" y="19" width="58" height="9" rx="4" fill="#a6b6c8" opacity=".65"/>
+            <rect x="18" y="40" width="125" height="18" rx="6" fill="#dce8f2" opacity=".85"/>
+            <rect x="18" y="76" width="84" height="21" rx="10" fill="#6ce8ce" opacity=".9"/>
+          </g>
+          <circle cx="595" cy="110" r="7" fill="#6ce8ce" opacity=".75"/><circle cx="64" cy="239" r="4" fill="#8caeff" opacity=".7"/><path d="M562 65l6 13 14 5-14 5-6 13-6-13-14-5 14-5z" fill="#8caeff" opacity=".7"/>
+        </svg>
+      </div>
+    </main>
+    <footer class="footer"><span>© <span id="year">2026</span> Purcheo. All rights reserved.</span><span>Built for what's next.</span></footer>
+  </div>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
